@@ -95,6 +95,11 @@ namespace SystemTrayApp
 				return ((AssemblyCompanyAttribute)attributes[0]).Company;
 			}
 		}
-		#endregion
-	}
+        #endregion
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

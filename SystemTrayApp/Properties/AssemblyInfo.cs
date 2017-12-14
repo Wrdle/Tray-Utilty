@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SystemTrayApp")]
-[assembly: AssemblyDescription("System Tray Utility Application Demonstration Program. Fusce a eros non mi fringilla egestas. Curabitur sit amet risus sit amet mauris rhoncus tempus ac sed massa. Sed ornare pellentesque diam, nec consequat enim hendrerit eget. Cras quis ullamcorper enim. Vestibulum fringilla risus at lectus tempor at cursus turpis ornare. Vestibulum sed dolor sem. Donec ut magna tortor.")]
+[assembly: AssemblyTitle("Matek Tray Utility")]
+[assembly: AssemblyDescription("This is just a program I wrote in my spare time to increase my own productivity. I was getting annoyed that I had to keep entering in ip addresses when rdp'ing into servers and I dont like filling up my desktop with items so this was my solutions.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SystemTrayApp")]
-[assembly: AssemblyCopyright("Copyright © 2011. All Rights reserved.")]
+[assembly: AssemblyCompany("Matek Design")]
+[assembly: AssemblyProduct("Matek Tray Utility")]
+[assembly: AssemblyCopyright("Copyright ©Matek Design 2017. All Rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.1")]
+[assembly: AssemblyFileVersion("1.1.0.1")]
