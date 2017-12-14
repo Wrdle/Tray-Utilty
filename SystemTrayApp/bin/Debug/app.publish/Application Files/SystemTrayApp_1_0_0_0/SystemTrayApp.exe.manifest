@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SystemTrayApp.exe" version="1.0.0.0" publicKeyToken="1f305a8ed3db2bd7" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\SystemTrayApp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SystemTrayApp" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SystemTrayApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SystemTrayApp.exe" size="828352">
+      <assemblyIdentity name="SystemTrayApp" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Eg4gKlrlC1xxDdKRgZRr5PvQvmc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Images\About.png" size="2600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qZBWs9pmsdihPSi6Zw0HHhtCaMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Exit.png" size="2674">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>psyqavMjY0kCZW0OHTY5J0yhOjw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Explorer.png" size="2866">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rKmN0hnJnHgxz7Pp53a6LJ4OA+U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SystemTrayApp.ico" size="227298">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KYXADalF6CkTh55Jf2UFK8J4kxo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PADUAADM\dagostinom18" issuerKeyHash="c74600f51eb68f873e8765ac9e5f02aa4b476cfd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jvgAy0YG+z5knGGOaFO+R2YORdQ=</DigestValue></Reference></SignedInfo><SignatureValue>H9EYsJCU90hHrfNCixuzP9RpmNPH0UiOzMrICF47e7ROeY9P5p/LYHX1v68dt0obGTNUSoRAPUPeJ/BTUOFTh1klwXkrnT+CVrfb5FnPWHh236IKbWL5o2Atq9IEFWs5ZQ/vpwiGGoWkrjaBwuwvDiqWtioxdCpcKudbb1l9p5g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5z3SXAPSvZEEQ/s12kbuaJrQQBVRMFTDfZbG8MiWDAdWKy4jC3c/cx8tquGqPI1XQrdE2BkZUesKeR5oueQ9FnjmjY0KRJ4Y9lh6WBpEi8HC2caujxQrzZNmAomSwAeoD8lsNk/4oq21W6QBhB/g3+hyE+2dgPU2qksgiLhJBjU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d4450e6647be53688e619c643efb0646cb00f88e" Description="" Url=""><as:assemblyIdentity name="SystemTrayApp.exe" version="1.0.0.0" publicKeyToken="1f305a8ed3db2bd7" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PADUAADM\dagostinom18</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qOdrLNycu37ta3Ou9MZuvcp++lA=</DigestValue></Reference></SignedInfo><SignatureValue>zs9dVblzSXQmpJt/wdT9ebSZyLckvcBiUYXuQDtWQBczOajmWJdO2HhpIY0YyauDo+m0t11BsFmF8lboGvdxpejz76jmMLj4SjHFuk5FkZoFEGwv5WZ3tTJlz9Daw4VzXuk8vKKlu0lRDfe34lsRFebxNGzBqPzLyqo0wYioJ/A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5z3SXAPSvZEEQ/s12kbuaJrQQBVRMFTDfZbG8MiWDAdWKy4jC3c/cx8tquGqPI1XQrdE2BkZUesKeR5oueQ9FnjmjY0KRJ4Y9lh6WBpEi8HC2caujxQrzZNmAomSwAeoD8lsNk/4oq21W6QBhB/g3+hyE+2dgPU2qksgiLhJBjU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQM6mjXF/7EZ1BtJ1Ks2VbezANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAUABBAEQAVQBBAEEARABNAFwAZABhAGcAbwBzAHQAaQBuAG8AbQAxADgwHhcNMTcxMjEwMjMzODA0WhcNMTgxMjExMDUzODA0WjA1MTMwMQYDVQQDHioAUABBAEQAVQBBAEEARABNAFwAZABhAGcAbwBzAHQAaQBuAG8AbQAxADgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOc90lwD0r2RBEP7NdpG7mia0EAVUTBUw32WxvDIlgwHVisuIwt3P3MfLarhqjyNV0K3RNgZGVHrCnkeaLnkPRZ45o2NCkSeGPZYelgaRIvBwtnGro8UK82TZgKJksAHqA/JbDZP+KKttVukAYQf4N/ochPtnYD1NqpLIIi4SQY1AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAogRgRJbN2c17ldvy2TIEOtosjB+zq2aX35CXsdMJuZuNdxg7qMkXLb6ZGbCyQU3C5221q3y8pvJg2YX4Pfr0FxgK+s127PUyhtOI7+QCluvCbGyYIz5TUa8JswH/Mjx1qfmgSNP5Mwv1cWZezpKT1YBLWjTeh2w9jlAOgV3HYTw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
