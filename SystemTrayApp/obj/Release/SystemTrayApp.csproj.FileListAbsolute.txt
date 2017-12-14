@@ -1,0 +1,10 @@
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\bin\Release\MatekTrayUtility.exe.manifest
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\bin\Release\MatekTrayUtility.application
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\bin\Release\MatekTrayUtility.exe
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\SystemTrayApp.AboutBox.resources
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\SystemTrayApp.Properties.Resources.resources
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\SystemTrayApp.csproj.GenerateResource.Cache
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\MatekTrayUtility.exe.manifest
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\MatekTrayUtility.application
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\MatekTrayUtility.exe
+C:\Users\mattd\OneDrive\Coding\SystemTrayApp\Matek-Tray-Utilty\SystemTrayApp\obj\Release\SystemTrayApp.csprojResolveAssemblyReference.cache
