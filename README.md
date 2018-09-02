@@ -1,4 +1,4 @@
-# Matek Tray Utilty
+# Tray Utilty
 This is just a program I wrote in my spare time to increase my own productivity. I was getting annoyed that I had to keep entering in ip addresses when rdp'ing into servers and I dont like filling up my desktop with items so this was my solutions. 
 
 # Instructions
